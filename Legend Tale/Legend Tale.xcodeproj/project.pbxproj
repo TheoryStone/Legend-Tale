@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E52B380521A5AC3300ABAC49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52B380421A5AC3300ABAC49 /* AppDelegate.swift */; };
-		E52B380721A5AC3300ABAC49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52B380621A5AC3300ABAC49 /* ViewController.swift */; };
 		E52B380A21A5AC3300ABAC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52B380821A5AC3300ABAC49 /* Main.storyboard */; };
 		E52B380C21A5AC3500ABAC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52B380B21A5AC3500ABAC49 /* Assets.xcassets */; };
 		E52B380F21A5AC3500ABAC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52B380D21A5AC3500ABAC49 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		E52B380121A5AC3300ABAC49 /* Legend Tale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Legend Tale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52B380421A5AC3300ABAC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E52B380621A5AC3300ABAC49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E52B380921A5AC3300ABAC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E52B380B21A5AC3500ABAC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52B380E21A5AC3500ABAC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,61 @@
 		E52B380321A5AC3300ABAC49 /* Legend Tale */ = {
 			isa = PBXGroup;
 			children = (
+				E52B381621A5BE6000ABAC49 /* Class */,
+				E52B381821A5BE6000ABAC49 /* Tools */,
 				E52B380421A5AC3300ABAC49 /* AppDelegate.swift */,
-				E52B380621A5AC3300ABAC49 /* ViewController.swift */,
 				E52B380821A5AC3300ABAC49 /* Main.storyboard */,
 				E52B380B21A5AC3500ABAC49 /* Assets.xcassets */,
 				E52B380D21A5AC3500ABAC49 /* LaunchScreen.storyboard */,
 				E52B381021A5AC3500ABAC49 /* Info.plist */,
 			);
 			path = "Legend Tale";
+			sourceTree = "<group>";
+		};
+		E52B381621A5BE6000ABAC49 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E52B381B21A5BE6000ABAC49 /* Main */,
+				E52B381721A5BE6000ABAC49 /* Contact */,
+				E52B381921A5BE6000ABAC49 /* Discover */,
+				E52B381A21A5BE6000ABAC49 /* Profile */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E52B381721A5BE6000ABAC49 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		E52B381821A5BE6000ABAC49 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E52B381921A5BE6000ABAC49 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		E52B381A21A5BE6000ABAC49 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E52B381B21A5BE6000ABAC49 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +180,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52B380721A5AC3300ABAC49 /* ViewController.swift in Sources */,
 				E52B380521A5AC3300ABAC49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
